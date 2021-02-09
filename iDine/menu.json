@@ -1,0 +1,250 @@
+[
+	{
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A66",
+		"name": "Breakfast",
+		"items": [
+			{
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+				"name": "Maple French Toast",
+				"photoCredit": "Joseph Gonzalez",
+				"price": 6,
+				"restrictions": ["G", "V"],
+				"description": "Sweet, fluffy, and served piping hot, our French toast is flown in fresh every day from Maple City, Canada, which is where all maple syrup in the world comes from. And if you believe that, we have some land to sell you…"
+			},
+			{
+                "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+				"name": "Stack-o-Pancakes",
+				"photoCredit": "Joseph Gonzalez",
+				"price": 8,
+				"restrictions": ["D", "G", "V"],
+				"description": "What do you get? Pancakes! How many do you get? One metric stack! That's equivalent to 1000 millistacks, or a tenth of a kilostack. In short, you get a lot of pancakes."
+			},
+			{
+                "id": "CFB8C2DB-3478-4A10-92FA-3D2A2D5324FB",
+				"name": "Power Muesli",
+				"photoCredit": "Hanny Naibaho",
+				"price": 5,
+				"restrictions": ["D", "N"],
+				"description": "Is normal muesli too boring? Of course it is. That's why we serve power muesli – it's like regular muesli, except we put the word \"power\" in front of it so we can charge more."
+			},
+			{
+                "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD27FDD7",
+				"name": "Fresh-baked Croissant",
+				"photoCredit": "Kavita Joshi Rai",
+				"price": 3,
+				"restrictions": ["D", "G"],
+				"description": "This is just a regular croissant that we buy in bulk from a frozen foods supermarket, but we needed some sort of adjective to justify our price. So, it was either \"fresh-baked\" or \"authentic Parisian\", and our legal team thinks the latter is probably going to land us in hot water."
+			},
+			{
+                "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
+				"name": "Full English",
+				"photoCredit": "Melissa Walker Horn",
+				"price": 12,
+				"restrictions": ["G"],
+				"description": "If you like eating breakfast out of things that could easily be served any time of day, then we have the perfect thing for you. Comes with tomato ketchup or brown sauce depending on how northern you sound."
+			},
+			{
+                "id": "190E1A9D-20A4-4F98-AA54-B192E1C4D7B9",
+				"name": "Porridge Deluxe",
+				"photoCredit": "Monika Grabkowska",
+				"price": 4,
+				"restrictions": ["D", "N", "V"],
+                "description": "This is literally just porridge. Bob, where did you get this picture? Our porridge looks nothing like this. No porridge does – who the heck has the time to make porridge like this? [NOTE FOR BOB: Replace this with actual marketing text]"
+			}
+		]
+	},
+	{
+		"name": "Mains",
+        "id": "3D97FAB4-50AC-40FC-9BF0-3F46BB6A92F5",
+		"items": [
+			{
+                "id": "D44AAEBC-BF4F-42CD-8C37-0FEF772A5B69",
+				"name": "Penne Carbonara",
+				"photoCredit": "Brooke Lark",
+				"price": 15,
+				"restrictions": ["D", "G"],
+                "description": "What's better than a creamy artisinal[1] pasta that has been hand-made[2] by our chefs[3]? All that with bacon, of course! ([1] Shop bought; [2] Hand-purchased; [3] wait staff)"
+			},
+			{
+                "id": "2BAD20C5-D007-4BBE-B074-8CF0F256A42F",
+				"name": "Mushroom Tagliatelle",
+				"photoCredit": "Eaters Collective",
+				"price": 12,
+				"restrictions": ["D", "G", "V"],
+				"description": "If you're the kind of fun guy (sorry not sorry) that likes salami-filled Italian food with a twist, this is the perfect dish for you. The twist? We lied about the meat."
+			},
+			{
+                "id": "759527CB-1064-4082-A527-F04698F9D18F",
+				"name": "Tower Burger",
+				"photoCredit": "Edward Guk",
+				"price": 12,
+				"restrictions": ["D", "G"],
+                "description": "It's a truth universally acknowledged that every restaurant is in want of a burger, and trust us: this thing is so tall you can't even get your mouth around it without dislocating your jaw."
+			},
+			{
+                "id": "AD419CE6-50CC-4132-BE8E-B92B9DFE4D02",
+				"name": "Thai Red Curry",
+				"photoCredit": "Elli O.",
+				"price": 12,
+				"restrictions": ["S"],
+				"description": "This dish errs more towards \"scorching\" than \"spicy\", so let us know ahead of time if you want it so we can put a few fire engines on standby."
+			},
+			{
+                "id": "944AB773-16CA-48F9-BB64-BB0E482FE102",
+				"name": "Paella Alicante",
+				"photoCredit": "Cel Lisboa ",
+				"price": 14,
+				"restrictions": ["G", "S"],
+				"description": "This is paella made Alicante-style. We don't quite know what that means, but we need to justify the Spanish junket somehow. ¡Olé!"
+			},
+			{
+                "id": "024763B6-2577-4D04-9A4F-321F3EB19EA6",
+				"name": "Superfood Salad",
+				"photoCredit": "Mgg Vitchakorn",
+				"price": 9,
+				"restrictions": ["N", "V"],
+                "description": "Many people believe that kale, spinach, and other such things can detox their body, and if that's you we're happy to take your money from you with this salad."
+			},
+			{
+                "id": "22E8B9F0-94C1-43EC-9B19-34F22CA17B6B",
+				"name": "Pesto Farfalle",
+				"photoCredit": "Eaters Collective",
+				"price": 10,
+				"restrictions": ["G", "N", "V"],
+				"description": "Cheap, filling, and green enough to make you tell yourself that it's healthy, our pesto farfalle is made from 100% recycled bow ties."
+			},
+			{
+                "id": "DD20B3C1-438A-4657-BCFA-A0C6DA1AE7EE",
+				"name": "Corn on the cob",
+				"photoCredit": "Dragne Marius",
+				"price": 6,
+				"restrictions": ["V"],
+                "description": "Seriously, Bob? You want us to charge six bucks for some corn on the cob? Listen, I know we're a hip cafe, but anyone rich enough to afford this price probably doesn't want to eat corn on the cob. [NOTE FOR BOB: Can we at least put some gold sprinkles on to justify the cost?]"
+			},
+			{
+                "id": "44FBAFC0-BEE0-4A02-9C57-B8ECDC1CE5E1",
+				"name": "Fillet Steak",
+				"photoCredit": "Alex Munsell",
+				"price": 20,
+				"restrictions": [],
+                "description": "It's a steak. It's not aged, it's not rubbed in kosher salt, it's not \"hand-cut\" or some other gibberish – it's just a slab of cow on a plate. Might come with sweet potato fries if you ask nicely."
+			},
+			{
+                "id": "F0B4DF27-B293-4151-8480-FA46DFCA5BBB",
+				"name": "Cheese Toastie",
+				"photoCredit": "Asnim Asnim",
+				"price": 7,
+				"restrictions": ["G"],
+                "description": "It's just two slices of bread; not that complicated, really. Oh, and cheese, obviously. Wait… and bacon it seems? I can't really tell – I'm squinting at the picture and it looks like it's bacon. Maybe it's lettuce? Honestly, your guess is as good as mine."
+			},
+			{
+                "id": "FD3BACF7-01AE-449D-8929-26C6F8EC90D5",
+				"name": "Pepperoni Pizza",
+				"photoCredit": "Thomas Tucker",
+				"price": 14,
+				"restrictions": ["D", "G"],
+				"description": "Our chef spent years trying out various authentic Neapolitan recipes for pizza, but in the end we found this really good frozen thing from Waitrose and we can't tell the difference. If you buy this you'll be in an A/B test where you'll get one of the two served to you."
+			},
+			{
+                "id": "F5BCE219-391D-4AAF-8DA7-D25096776D46",
+				"name": "Veggie Pizza",
+				"photoCredit": "Cel Lisboa",
+				"price": 12,
+				"restrictions": ["D", "G", "V"],
+                "description": "This is literally our pepperoni pizza except we picked off the bits of salami and ran it under a cold tap for a couple of seconds. (Note: might still taste a bit pepperoni-ish.)"
+			}
+		]
+	},
+	{
+		"name": "Dessert",
+        "id": "1C89DAFD-7653-4EF2-BF20-C51A159BAC43",
+		"items": [
+			{
+                "id": "AB7E38EA-05A7-426A-AFF3-B3A32B3E86BF",
+				"name": "Strawberry Surprise",
+				"photoCredit": "Karly Gomez",
+				"price": 6,
+				"restrictions": ["D", "V"],
+                "description": "Bob, people keep asking us why this thing has D and V for its restrictions, and it's making other customers worry that we are some sort of D&V hotspot. [NOTE FOR BOB: Can we find another word for dairy intolerance?]"
+			},
+			{
+                "id": "758ABBE3-F338-4F7C-BAC7-8D61BC1FB329",
+				"name": "Macarons Galore",
+				"photoCredit": "Mana",
+				"price": 8,
+				"restrictions": ["N", "V"],
+				"description": "For times when one, two, or even three macarons aren't enough, we're proud to present macarons galore – four macarons, to fully satisfy your craving for these sweet almondy delights!"
+			},
+			{
+                "id": "A73E2D2D-D53A-46D4-8829-62011EEF7DA4",
+				"name": "All Out Donuts",
+				"photoCredit": "Kobby Mendez",
+				"price": 5,
+				"restrictions": ["G", "V"],
+				"description": "Donuts! More donuts! And yet more donuts! Exactly how many you get depends on the day – we pretty much cram them all on to a plate then see how many we can balance as we walk them to your table."
+			},
+			{
+                "id": "971CFDDD-2AFA-418F-909F-D459CC6827CF",
+				"name": "Super Sundae",
+				"photoCredit": "Camila Melim",
+				"price": 7,
+				"restrictions": ["D", "V"],
+				"description": "This is no regular sundae – it's a super sundae! I think that means it wears glasses and has an unusual fear of kryptonite? Yeah, that sounds about right."
+			}
+		]
+	},
+	{
+		"name": "Drinks",
+        "id": "CE3C67F9-79E3-46E3-B134-362A52ABFE3C",
+		"items": [
+			{
+                "id": "A4D89AF9-190E-4409-B924-AABD13DBB6A4",
+				"name": "Virgin Mojito",
+				"photoCredit": "Melissa Walker Horn",
+				"price": 5,
+				"restrictions": ["V"],
+				"description": "The mojito is a classic drink of rum, mint, lime, and soda, but without the rum. So, this is basically an expensive glass of Sprite. We might put an umbrella in it so you don't feel quite so scammed."
+			},
+			{
+                "id": "FC201614-1418-4152-9469-087B27485D13",
+				"name": "Strawberry Cooler",
+				"photoCredit": "Alex Loup",
+				"price": 6,
+				"restrictions": ["V"],
+                "description": "Step 1: Blend some frozen strawberries. Step 3: Profit! If you're reading this it means you've figured out step 2 for yourself."
+			},
+			{
+                "id": "58CE3F3E-74E1-4C5F-A630-986B187788B5",
+				"name": "Powerhouse coffee",
+				"photoCredit": "Nathan Dumlao",
+				"price": 3,
+				"restrictions": ["V"],
+				"description": "In the same way that brandy is distilled wine, this is distilled coffee. Yes, we literally boil coffee again and again to remove as much water as possible, leaving some black goopy stuff that is pretty much guaranteed to make your eyes pop."
+			},
+			{
+                "id": "71B872F2-3B5D-46D0-9D98-E696B4AE30E4",
+				"name": "Mexican Mocha",
+				"photoCredit": "Nathan Dumlao",
+				"price": 7,
+				"restrictions": ["D", "V"],
+				"description": "What do you get if you mix spicy Mexican chocolate into coffee? I mean, the answer is pretty much in the name – we really ought to get a better marketing team."
+			},
+			{
+                "id": "DE58CEFF-7023-4B60-88CC-80C5B7BFB6EC",
+				"name": "Chrysanthemum Tea",
+				"photoCredit": "Loverna Journey",
+				"price": 4,
+				"restrictions": ["V"],
+				"description": "This is tea made from chrysanthemum. No, we're not quite sure how that works either. Do we press the leaves? Is chrysanthemum even a plant? It sounds like some sort of wild animal. Maybe we milked it to make this drink."
+			},
+			{
+                "id": "E7584DB6-2EAE-4178-ADB2-9E5DBD5215EA",
+				"name": "Straight Up OJ",
+				"photoCredit": "Alexander Mils",
+				"price": 3,
+				"restrictions": ["V"],
+                "description": "What do you get if you pour a whole bottle of orange juice into a glass? This – you get this. Fun fact: oranges aren't named that because they are colored orange, but because they are high in the vitamin orangoflavin. (Note: not actually true.)"
+			}
+		]
+	}
+]

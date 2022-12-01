@@ -19,13 +19,9 @@ struct CheckoutView: View {
     let tipAmounts = [10, 15, 20, 25, 0]
 
     var totalPrice: String {
-        let formatter = NumberFormatter()
-        formatter.numberStyle = .currency
-
         let total = Double(order.total)
         let tipValue = total / 100 * Double(tipAmount)
-
-        return formatter.string(from: NSNumber(value: total + tipValue)) ?? "$0"
+        return (total + tipValue).formatted(.currency(code: "USD"))
     }
 
     var body: some View {
@@ -44,7 +40,7 @@ struct CheckoutView: View {
                 }
             }
 
-            Section(header: Text("Add a tip?")) {
+            Section("Add a tip?") {
                 Picker("Percentage:", selection: $tipAmount) {
                     ForEach(tipAmounts, id: \.self) {
                         Text("\($0)%")
@@ -53,10 +49,7 @@ struct CheckoutView: View {
                 .pickerStyle(SegmentedPickerStyle())
             }
 
-            Section(header:
-                Text("TOTAL: \(totalPrice)")
-                        .font(.largeTitle) 
-            ) {
+            Section("Total: \(totalPrice)") {
                 Button("Confirm order") {
                     showingPaymentAlert.toggle()
                 }
@@ -64,8 +57,10 @@ struct CheckoutView: View {
         }
         .navigationTitle("Payment")
         .navigationBarTitleDisplayMode(.inline)
-        .alert(isPresented: $showingPaymentAlert) {
-            Alert(title: Text("Order confirmed"), message: Text("Your total was \(totalPrice)"), dismissButton: .default(Text("OK")))
+        .alert("Order confirmed", isPresented: $showingPaymentAlert) {
+            // no buttons needed
+        } message: {
+            Text("Your total was \(totalPrice) - thank you!")
         }
     }
 }

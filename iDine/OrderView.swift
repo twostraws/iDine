@@ -11,7 +11,7 @@ struct OrderView: View {
     @EnvironmentObject var order: Order
 
     var body: some View {
-        NavigationView {
+        NavigationStack {
             List {
                 Section {
                     ForEach(order.items) { item in
@@ -25,14 +25,14 @@ struct OrderView: View {
                 }
 
                 Section {
-                    NavigationLink(destination: CheckoutView()) {
-                        Text("Place Order")
+                    NavigationLink("Place Order") {
+                        CheckoutView()
                     }
                 }
                 .disabled(order.items.isEmpty)
             }
             .navigationTitle("Order")
-            .listStyle(InsetGroupedListStyle())
+            .listStyle(.insetGrouped)
             .toolbar {
                 EditButton()
             }

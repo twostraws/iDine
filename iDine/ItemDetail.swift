@@ -32,7 +32,7 @@ struct ItemDetail: View {
             Button("Order This") {
                 order.add(item: item)
             }
-            .font(.headline)
+            .buttonStyle(.borderedProminent)
 
             Spacer()
         }
@@ -43,7 +43,7 @@ struct ItemDetail: View {
 
 struct ItemDetail_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationView {
+        NavigationStack {
             ItemDetail(item: MenuItem.example)
                 .environmentObject(Order())
         }

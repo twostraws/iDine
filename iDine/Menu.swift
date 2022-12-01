@@ -14,7 +14,7 @@ struct MenuSection: Codable, Identifiable {
     var items: [MenuItem]
 }
 
-struct MenuItem: Codable, Equatable, Identifiable {
+struct MenuItem: Codable, Hashable, Identifiable {
     var id: UUID
     var name: String
     var photoCredit: String
